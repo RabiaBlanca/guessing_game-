@@ -2,8 +2,8 @@ import random
 import sys
 import re
 
-print("-GUESSING GAME- \n")
 def profile_user():
+    print("-GUESSING GAME- \n")
     while True:
         user_name = input("Username: ")
         pattern1 = r"(?i)[^a-z0-9_><]"
